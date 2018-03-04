@@ -28,7 +28,7 @@ The table below lists particle number versus results. The reported errors are th
 All runs were within the maximum allowed translation error and yaw angle error.
 
 | Particles        | Final Report Errors (x(m),y(m),$\theta$(rad)) | Time (s)  | Pass | 
-| ------------- |:-------------:| -----:|
+| ------------- |:------------------------:| -----:|:---:|
 | 10      | (0.163, 0.150, 0.005) | 49.14  | Yes |
 | 100     | (0.115, 0.110, 0.004) | 48.94  | Yes |
 | 1000    | (0.109, 0.102, 0.004) | 50.54  | Yes |
