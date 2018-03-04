@@ -24,15 +24,15 @@ The directory structure of this repository is as follows:
 There was one paramter to tune, the number of particles.
 We tried 10, 100, 1000, and 10000. At 10000 particles, the filter was over the time limit.
 
+The table below lists particle number versus results. The reported errors are the errors report at the final point.
+All runs were within the maximum allowed translation error and yaw angle error.
 
-Colons can be used to align columns.
-
-| Particles        | Errors (x(m),y(m),$\theta$(rad)) | Time (s)  |
+| Particles        | Final Report Errors (x(m),y(m),$\theta$(rad)) | Time (s)  | Pass | 
 | ------------- |:-------------:| -----:|
-| 10      | (0.163, 0.150, 0.005) | 49.14  |
-| 100     | (0.115, 0.110, 0.004) | 48.94  |
-| 1000    | (0.109, 0.102, 0.004) | 50.54  |
-| 10000   | (0.108, 0.099, 0.004) | 220.02 |
+| 10      | (0.163, 0.150, 0.005) | 49.14  | Yes |
+| 100     | (0.115, 0.110, 0.004) | 48.94  | Yes |
+| 1000    | (0.109, 0.102, 0.004) | 50.54  | Yes |
+| 10000   | (0.108, 0.099, 0.004) | 220.02 | No |
 
 
 Clearly, the time to run the simulation is the same untile the number of particles exceeds 1000 particles, while the error improves at 100 partilces significantly and then less so in the step between 100 and 1000. Here the optimal particle number is about 1000 since it runs in about the same time as 10 and has lower translational errors. The yaw error is improved but was not a big change.
