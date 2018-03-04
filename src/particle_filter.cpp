@@ -19,7 +19,7 @@
 #include "particle_filter.h"
 #include <random>
 
-const int NUM_PARTICLES = 10;
+const int NUM_PARTICLES = 100;
 
 using namespace std;
 
