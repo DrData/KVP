@@ -14,7 +14,7 @@
 #include <algorithm>
 #include <assert.h>
 #include <list>
-#include <numeric>>
+#include <numeric>
 
 #include "particle_filter.h"
 #include <random>
